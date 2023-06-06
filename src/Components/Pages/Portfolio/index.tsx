@@ -1,12 +1,16 @@
 import MyFooter from "../../Reusables/MyFooter";
 import MyNavbar from "../../Reusables/MyNavbar";
 import { Row, Col, Container } from "react-bootstrap";
+import cx from "classnames";
+import styles from "./styles.module.css";
+import CV from "../../assets/BatiGokovali_CV.pdf";
 
 export const Portfolio = () => {
   return (
     <>
       <MyNavbar />
       <Container className="mt-5">
+        <p className={cx(styles.header, "mb-3")}>Tech Stack</p>
         <Row>
           <Col lg={2} className="mb-3">
             <img
@@ -93,6 +97,31 @@ export const Portfolio = () => {
             />
           </Col>
         </Row>
+        <div>
+          <p className={cx(styles.header, "mb-3 mt-5")}>Projects</p>
+          <p className={cx(styles.text)}>
+            Currently doing some improvements on my previous projects. You can
+            check them in my{" "}
+            <a
+              className={cx(styles.anchor)}
+              href="https://github.com/batigokovali?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github!
+            </a>
+          </p>
+        </div>
+        <div>
+          <p className={cx(styles.header, "mb-3 mt-5")}>CV</p>
+          <p className={cx(styles.text)}>
+            Click{" "}
+            <a className={cx(styles.anchor)} href="#">
+              here
+            </a>{" "}
+            to download my CV!
+          </p>
+        </div>
       </Container>
 
       <MyFooter />

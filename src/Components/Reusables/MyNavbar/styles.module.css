@@ -1,0 +1,9 @@
+.buttons {
+  color: white;
+  text-decoration: none;
+  transition: all 400ms;
+}
+
+.buttons:hover {
+  color: grey;
+}

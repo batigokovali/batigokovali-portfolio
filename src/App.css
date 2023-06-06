@@ -1,0 +1,35 @@
+body {
+  background-color: #222222 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+#footer {
+  position: fixed;
+  top: 95vh;
+  display: flex;
+  justify-content: center;
+}
+
+#typewriter-banger {
+  font-size: 24px;
+}
+
+#footer-icons > a {
+  color: white !important;
+}
+
+#navbar {
+  background-color: black !important;
+}
+
+.logos {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  background-color: rgb(94, 91, 91);
+  border-radius: 15px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  color: white !important;
+}

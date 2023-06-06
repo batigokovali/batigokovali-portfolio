@@ -1,0 +1,9 @@
+.jumbotainer {
+  height: 80vh;
+}
+
+.image {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}

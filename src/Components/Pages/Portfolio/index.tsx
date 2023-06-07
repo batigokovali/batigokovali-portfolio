@@ -3,6 +3,7 @@ import MyNavbar from "../../Reusables/MyNavbar";
 import { Row, Col, Container } from "react-bootstrap";
 import cx from "classnames";
 import styles from "./styles.module.css";
+// import CV from "../../assets/";
 
 export const Portfolio = () => {
   return (

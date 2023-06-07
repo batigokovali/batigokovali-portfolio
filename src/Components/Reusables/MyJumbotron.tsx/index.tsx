@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Typewriter } from "react-simple-typewriter";
 import cx from "classnames";
 import styles from "./styles.module.css";
-import image from "../../Assets/picture_result.png";
+import image from "../../assets/picture_result.png";
 
 const MyJumbotron = () => {
   return (

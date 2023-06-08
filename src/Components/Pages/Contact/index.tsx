@@ -39,11 +39,19 @@ export const Contact = () => {
         <p>Got a question? Send an email to me!</p>
         <form ref={form} onSubmit={sendEmail} className="d-flex flex-column">
           <label>Name</label>
-          <input type="text" name="user_name" />
+          <input type="text" name="user_name" placeholder="Enter Your Name" />
           <label>Email</label>
-          <input type="email" name="user_email" />
+          <input
+            type="email"
+            name="user_email"
+            placeholder="Enter Your Email"
+          />
           <label>Message</label>
-          <textarea name="message" />
+          <textarea
+            name="message"
+            placeholder="Enter Your Message Here"
+            className="mb-3"
+          />
           <input type="submit" value="Send" />
         </form>
       </Container>

@@ -14,20 +14,20 @@ export const About = () => {
         </div>
         <div>
           <p className={cx(styles.text)}>
-            Hello, I'm Batı Gökovalı! To sum up my work experience and career
-            path, I am responsible, adaptable, and open-minded with a
-            teamwork-oriented person. I have proved myself on adaptability and
-            flexibility in managing both serial and prototype productions,
-            meeting all required deadlines with a problem-solving and punctual
-            mindset. Experienced in corporate workflow and bureaucracy within a
-            company of 3500+ employees. Multidisciplinary background includes
-            designing process routes for pyrotechnics systems, such as ignition
-            systems, electrical and mechanical components, and safe-arm devices.
+            To sum up my work experience and career path, I am responsible,
+            adaptable, open-minded with a teamwork-oriented person. I have
+            proven myself on adaptability and flexibility in managing both
+            serial and prototype productions, meeting all required deadlines
+            with a problem-solving and punctual mindset. Experienced in
+            corporate workflow and bureaucracy within a company of 3500+
+            employees. My multidisciplinary background includes designing
+            process routes for pyrotechnics systems, such as ignition systems,
+            electrical and mechanical components, and safe-arm devices.
           </p>
         </div>
         <div>
           <p className={cx(styles.text)}>
-            Also I am passionate about computer science and coding, I completed
+            Also, I am passionate about computer science and coding, I completed
             EPICODE's full-stack developer course, acquiring skills in
             JavaScript, TypeScript, React, and NodeJS. Currently seeking a
             full-stack developer position in the EU to enhance my skills and

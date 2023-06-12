@@ -1,0 +1,17 @@
+#inputs {
+  border-radius: 10px;
+  background-color: rgb(75, 75, 75);
+  border: none;
+  height: 40px;
+  color: white;
+}
+
+#inputs::placeholder {
+  color: white;
+}
+
+#header {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}

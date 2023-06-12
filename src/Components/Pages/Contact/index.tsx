@@ -5,6 +5,8 @@ import { useRef, RefObject } from "react";
 import { Container } from "react-bootstrap";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import cx from "classnames";
+import styles from "./styles.module.css";
 
 export const Contact = () => {
   const form: RefObject<HTMLFormElement> | null = useRef(null);
@@ -36,21 +38,29 @@ export const Contact = () => {
     <>
       <MyNavbar />
       <Container>
-        <p>Got a question? Send an email to me!</p>
+        <p id={cx(styles.header)}>Got a question? Send an email to me!</p>
         <form ref={form} onSubmit={sendEmail} className="d-flex flex-column">
-          <label>Name</label>
-          <input type="text" name="user_name" placeholder="Enter Your Name" />
-          <label>Email</label>
+          <input
+            type="text"
+            name="user_name"
+            placeholder="Enter Your Name"
+            id={cx(styles.inputs)}
+            className="mb-3"
+          />
+
           <input
             type="email"
             name="user_email"
             placeholder="Enter Your Email"
+            id={cx(styles.inputs)}
+            className="mb-3"
           />
-          <label>Message</label>
+
           <textarea
             name="message"
-            placeholder="Enter Your Message Here"
+            placeholder="Your Message..."
             className="mb-3"
+            id={cx(styles.inputs)}
           />
           <input type="submit" value="Send" />
         </form>

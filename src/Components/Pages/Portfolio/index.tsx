@@ -3,7 +3,7 @@ import MyNavbar from "../../Reusables/MyNavbar";
 import { Row, Col, Container } from "react-bootstrap";
 import cx from "classnames";
 import styles from "./styles.module.css";
-// import CV from "../../assets/";
+import cv from "../../assets/cv.pdf";
 
 export const Portfolio = () => {
   return (
@@ -116,7 +116,12 @@ export const Portfolio = () => {
           <p className={cx(styles.header, "mb-3 mt-5")}>CV</p>
           <p className={cx(styles.text)}>
             Click{" "}
-            <a className={cx(styles.anchor)} href="#">
+            <a
+              className={cx(styles.anchor)}
+              href={cv}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               here
             </a>{" "}
             to download my CV!

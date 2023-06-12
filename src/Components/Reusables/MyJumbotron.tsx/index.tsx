@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Typewriter } from "react-simple-typewriter";
 import cx from "classnames";
 import styles from "./styles.module.css";
-// import image from "../../assets/picture_result.png";
+import image from "../../assets/pp_result.png";
 
 const MyJumbotron = () => {
   return (
@@ -35,7 +35,7 @@ const MyJumbotron = () => {
             </div>
           </Col>
           <Col>
-            {/* <img src={image} className={cx(styles.image)} alt="" /> */}
+            <img src={image} className={cx(styles.image)} alt="" />
           </Col>
         </Row>
         <div className="d-flex flex-column align-items-center"></div>

@@ -14,15 +14,16 @@ export const About = () => {
         </div>
         <div>
           <p className={cx(styles.text)}>
-            To sum up my work experience and career path, I am responsible,
-            adaptable, open-minded with a teamwork-oriented person. I have
-            proven myself on adaptability and flexibility in managing both
-            serial and prototype productions, meeting all required deadlines
-            with a problem-solving and punctual mindset. Experienced in
-            corporate workflow and bureaucracy within a company of 3500+
-            employees. My multidisciplinary background includes designing
-            process routes for pyrotechnics systems, such as ignition systems,
-            electrical and mechanical components, and safe-arm devices.
+            Highly skilled process engineer with 2 years of expertise in both
+            serial and prototype productions. Proficient in designing process
+            routes for pyrotechnics systems, including ignition systems of solid
+            propellant rocket motors, electrical and mechanical components, and
+            safe-arm devices. Recently completed an immersive boot camp at
+            EPICODE, fueling a strong passion for technology and software
+            development. Currently, actively seeking a new career path as a
+            full-stack developer to leverage my problem-solving abilities,
+            analytical mindset, and dedication to delivering innovative
+            solutions in the software industry.
           </p>
         </div>
         <div>

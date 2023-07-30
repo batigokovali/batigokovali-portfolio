@@ -26,15 +26,6 @@ export const About = () => {
           </p>
         </div>
         <div>
-          <p className={cx(styles.text)}>
-            Also, I am passionate about computer science and coding, I completed
-            EPICODE's full-stack developer course, acquiring skills in
-            JavaScript, TypeScript, React, and NodeJS. Currently seeking a
-            full-stack developer position in the EU to enhance my skills and
-            contribute as a valuable asset to a company.
-          </p>
-        </div>
-        <div>
           <p className={cx(styles.text)}></p>
         </div>
       </Container>
